@@ -1,0 +1,390 @@
+/*Carousel*/
+.carousel-caption{
+    text-shadow: 1px 1px black;
+}
+/*Header*/
+.logo a {
+    display: block;
+    font-family: 'Charmonman', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    padding-top: 1.4vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 0.75vw;
+    float: left;
+}
+
+.logo a:hover:not(.activeLink) {
+    background-color: #ff7961;
+}
+
+.headerListDesktop {
+    font-size: 1.5vw;
+    float: right;
+}
+
+.headerListDesktop a {
+    display: inline-block;
+    padding-top: 1.5vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-bottom: 1.4vw;
+    color: white;
+    text-decoration: none;
+}
+
+.headerListDesktop a:hover:not(.activeLink) {
+    background-color: #ff7961;
+}
+
+.headerListDesktop a:active:not(.activeLink) {
+    background-color: #ba000d;
+}
+
+.activeLink {
+    /*background-color: #4CAF50;*/
+    background-color: #111;
+    color: black;
+}
+
+.LandingPageHeader {
+    list-style-type: none;
+    overflow: hidden;
+    /*because the whole things then ends up having a single margin sort of*/
+    background-color: #f44336;
+    margin: 0;
+    padding: 0;
+}
+
+.mainMenu {
+    display: block;
+}
+
+/*Desktop Menu End*/
+
+/*Mobile Menu Start*/
+
+.mobileMenu {
+    background-color: #f44336;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: none;
+    text-align: center;
+}
+
+.logoMobile {
+    display: inline-block;
+    font-family: 'Charmonman', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.logoMobile:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.logoMobile:active{
+    text-decoration: none;
+    color: white;
+}
+
+.logoMobile:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.logoMobile:focus{
+    text-decoration: none;
+}
+
+.mobileMenuIcon {
+    color: white;
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 7px;
+    padding-right: 2vw;
+    float: right;
+}
+
+.mobileMenuIcon:hover {
+    color: white;
+}
+
+.mobileMenuPopUpList {
+    background-color: #f44336;
+    list-style-type: none;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    text-align: left;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-size: 16px;
+    display: none;
+}
+
+.mobileMenuPopUpList a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Mobile Menu End*/
+
+/*Header Start*/
+
+.barTop {
+    background-color: #607d8b;
+    color: white;
+    font-family: 'Charmonman', cursive;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*display: none;*/
+}
+
+.barTopIcon {
+    /*float: right;*/
+    padding-right: 1vw;
+    color: white;
+    font-size: 1.5vw;
+    padding-top: 0.55vw;
+}
+
+.estd {
+    /*float: left;*/
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+}
+
+.barTopIconMobile {
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.barTopMobile {
+    height: auto;
+    background-color: #607d8b;
+    display: none;
+}
+
+/*Header End*/
+
+/*SHADOW*/
+
+.boxShadowUp {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*SHADOW*/
+
+/*CARD*/
+
+.card {
+    width: 90vw;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    position: relative;
+    left: -100vw;
+}
+
+.card h2 {
+    font-family: 'Charmonman', cursive;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    border-bottom: 5px solid #607d8b;
+    font-size: 2.5vw;
+    margin: 0px;
+}
+
+.card p {
+    padding: 2vw;
+    display: inline-block;
+}
+
+.card img {
+    padding-right: 1vw;
+    padding-left: 1vw;
+    width: 65%;
+    height: auto;
+}
+
+.card a {
+    color: #607d8b;
+    font-size: 20px;
+}
+
+.card h6 {
+    padding: 0.5vw;
+    padding-right: 1vw;
+    background-color: #8eacbb;
+    text-align: right;
+    margin: 0px;
+}
+
+.cardInView {
+    -webkit-animation: mymove 1s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes mymove {
+    from {
+        left: -100vw;
+    }
+    to {
+        left: 0vw;
+    }
+}
+
+@keyframes mymove {
+    from {
+        left: -100vw;
+    }
+    to {
+        left: 0vw;
+    }
+}
+
+/*CARD*/
+
+/*FOOTER*/
+
+.footer {
+    background-color: black;
+    width: 90vw;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 1vw;
+    color: white;
+}
+
+.footer p {
+    margin: 0px;
+    padding: 1vw;
+}
+
+/*FOOTER*/
+
+/*FOOTER MOBILE*/
+
+.footerMobile {
+    background-color: black;
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    padding: 5px;
+    padding-top: 15px;
+    margin-top: 1vw;
+    color: white;
+    display: none;
+}
+
+/*FOOTER MOBILE*/
+
+.banner {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: url("Images/american-arms-cheerful-1342478.jpg");
+    background-color: #cccccc;
+    height: 88vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerText{
+    display: table-cell;
+    width: 90vw;
+    height: 88vh;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+}
+
+.no-copy {
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+}
+
+a {
+    outline: 0;
+}
+
+.object-fit_cover {
+    object-fit: cover
+}
+
+/*MOBILE DEVICES*/
+
+@media screen and (max-width: 750px) {
+    .barTopMobile {
+        display: block;
+    }
+    .barTop {
+        display: none;
+    }
+    .mainMenu {
+        display: none;
+    }
+    .mobileMenu {
+        display: block;
+    }
+    .card {
+        margin-bottom: 10px;
+    }
+    .card h2 {
+        font-family: 'Charmonman', cursive;
+        border-bottom: 5px solid #607d8b;
+        font-size: 25px;
+        margin: 0px;
+        padding-top: 15px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+    .card img {
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        display: none;
+    }
+    .footerMobile {
+        display: block;
+    }
+}
+
+/*MOBILE DEVICES*/

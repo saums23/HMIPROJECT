@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>
+        Event Management
+    </title>
+
+    <!--For Bootstrap 3-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Bootsrapt 3 End-->
+
+    <!--W3 CSS-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--W3 CSS END-->
+
+    <!--Fonts And Icons-->
+    <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!--Fonts & Icons End-->
+
+    <!--Own Library-->
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <!--Own Library End-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background-color: #ba000d;" class="no-copy">
+
+    <!--Phone Top Bar-->
+    <div class="barTopMobile boxShadowUp" style="width: 90vw; margin: auto; text-align: center;">
+        <a href="#">
+            <i class="fab fa-facebook-square barTopIconMobile"></i>
+            <!--Multiple Classes-->
+        </a>
+        <a href="#">
+            <i class="fas fa-envelope-square barTopIconMobile"></i>
+        </a>
+    </div>
+    <!--Phone Top Bar-->
+
+    <!--Desktop Top Bar-->
+    <div class="barTop boxShadowUp">
+        <span class="estd">Estd 1990</span>
+        <span>Providing Quality Service</span>
+        <div>
+            <a href="#">
+                <i class="fab fa-facebook-square barTopIcon"></i>
+            </a>
+            <a href="#">
+                <i class="fas fa-envelope-square barTopIcon"></i>
+            </a>
+        </div>
+    </div>
+    <!--Desktop Top Bar-->
+
+    <header style="position: sticky; top: 0px; z-index: 100; width: 90vw; margin: auto;" class="boxShadowUp mainMenu">
+        <ul class="LandingPageHeader">
+            <li class="logo"><a href="index.html">Event</a></li>
+            <li class="headerListDesktop">
+                <a href="tel:+1-555-555-1212">
+                    <i class="fas fa-phone-volume"></i>
+                    <span>555-555-1212</span>
+                </a>
+            </li>
+            <li class="headerListDesktop"><a href="about.html">About Us</a></li>
+            
+        </ul>
+    </header>
+
+    <!--Menu Bar Mobile-->
+    <nav class="mobileMenu boxShadowUp">
+        <!--To help align the logo-->
+        <i class="glyphicon glyphicon-remove mobileMenuIcon" style="float:left; visibility:hidden;"></i>
+        <!--To help align the logo-->
+
+        <a href="index.html" class="logoMobile">Event</a>
+        <a class="mobileMenuIcon" id="mobileMenu"><i id="menuIcon" class="glyphicon glyphicon-menu-hamburger"></i></a>
+        <!--PopUp-->
+        <ul class="mobileMenuPopUpList" id="mobileMenuPopUpList">
+            <li>
+                <a href="tel:+1-555-555-1212">
+                    <i class="fas fa-phone-volume"></i>
+                    <span>555-555-1212</span>
+                </a>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#findUs">Find Us</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#venue">Venue</a></li>
+        </ul>
+    </nav>
+    <!--Menu Bar Mobile-->
+
+    <!--Banner Start-->
+    <div class="banner boxShadowUp" style="width: 90vw; margin: auto; text-align: center;">
+        <div class="bannerText">
+            <h1 style="margin: 0px; font-size: 35px;">Customer Satisfaction Comes First</h1>
+            <p><i>Founded in 1996, and from then we have taked pride in satisfying our customer and tending to their
+                    every
+                    need.</i></p>
+        </div>
+    </div>
+    <!--Banner End-->
+
+    <!--Clients Start-->
+    <section class="jumbotron boxShadowUp" style="width: 90vw; margin: auto; margin-top: 20px;">
+        <h2 style="text-align: center;">Our Clients</h2>
+        <hr>
+        <div class="w3-row">
+
+            <div class="w3-col w3-container m6 l3" style="padding: 10px;">
+                <div class="w3-hover-shadow w3-grey w3-center w3-round-large">
+                    <header class="w3-container w3-blue-grey w3-round-large">
+                        <h2>Company 1</h2>
+                    </header>
+
+                    <div class="w3-container">
+                        <img src="Logos/company1.jpg" width="100%" height="auto">
+                    </div>
+
+                    <footer class="w3-container w3-blue-grey w3-round-large">
+                        <h5>Footer</h5>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="w3-col w3-container m6 l3" style="padding: 10px">
+                <div class="w3-hover-shadow w3-grey w3-center w3-round-large">
+                    <header class="w3-container w3-blue-grey w3-round-large">
+                        <h2>Company 1</h2>
+                    </header>
+
+                    <div class="w3-container">
+                        <img src="Logos/company1.jpg" width="100%" height="auto">
+                    </div>
+
+                    <footer class="w3-container w3-blue-grey w3-round-large">
+                        <h5>Footer</h5>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="w3-col w3-container m6 l3" style="padding: 10px">
+                <div class="w3-hover-shadow w3-grey w3-center w3-round-large">
+                    <header class="w3-container w3-blue-grey w3-round-large">
+                        <h2>Company 1</h2>
+                    </header>
+
+                    <div class="w3-container">
+                        <img src="Logos/company1.jpg" width="100%" height="auto">
+                    </div>
+
+                    <footer class="w3-container w3-blue-grey w3-round-large">
+                        <h5>Footer</h5>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="w3-col w3-container m6 l3" style="padding: 10px">
+                <div class="w3-hover-shadow w3-grey w3-center w3-round-large">
+                    <header class="w3-container w3-blue-grey w3-round-large">
+                        <h2>Company 1</h2>
+                    </header>
+
+                    <div class="w3-container">
+                        <img src="Logos/company1.jpg" width="100%" height="auto">
+                    </div>
+
+                    <footer class="w3-container w3-blue-grey w3-round-large">
+                        <h5>Footer</h5>
+                    </footer>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Clients End-->
+
+    <!--Team Start-->
+    <section class="jumbotron boxShadowUp" style="width: 90vw; margin: auto; margin-top: 20px;">
+        <h2 style="text-align: center;">The Team</h2>
+        <hr>
+        <div class="w3-row">
+
+            <div class="w3-col w3-container m6 l3" style="padding: 10px; margin-left: 125px;">
+                <div class="w3-container w3-center w3-grey w3-round-large w3-hover-shadow">
+                    <img src="Images/img_avatar3.png" alt="Avatar" style="width:100%">
+                    <h3>Saumya Shrivastava</h3>
+                    <p>Roll no 57</p>
+                </div>
+            </div>
+
+            <div class="w3-col w3-container m6 l3" style="padding: 10px; margin-left:50px ; margin-right: 49px;">
+                <div class="w3-container w3-center w3-grey w3-round-large w3-hover-shadow">
+                    <img src="Images/img_avatar3.png" alt="Avatar" style="width:100%">
+                    <h3>Shraddha Pawar</h3>
+                    <p>Roll no</p>
+                </div>
+            </div>
+
+            <div class="w3-col w3-container m6 l3" style="padding: 10px; margin-right:100px;">
+                <div class="w3-container w3-center w3-grey w3-round-large w3-hover-shadow">
+                    <img src="Images/img_avatar3.png" alt="Avatar" style="width:100%">
+                    <h3>Gaurangi Pradhan</h3>
+                    <p>Roll no</p>
+                </div>
+            </div>
+
+           
+
+        </div>
+    </section>
+    <!--Team End-->
+
+    <!--Footer-->
+    <footer class="boxShadowUp footer">
+        <p>
+            <span>© BE 4</span>
+            <span style="float: right;">Designed & Maintained by BE 4</span>
+        </p>
+    </footer>
+    <!--Footer-->
+
+    <!--Footer Mobile-->
+    <footer class="footerMobile boxShadowUp">
+        <p>© Shadman Saif</p>
+        <p>Designed & Maintained by Shadman Saif</p>
+    </footer>
+    <!--Footer Mobile-->
+
+    <!--Own Script-->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
